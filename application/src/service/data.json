@@ -1,0 +1,97 @@
+{
+    "data": {
+        "COMBINED": [
+            {
+                "FUND_NAME": "Sample Fund Name",
+                "ACCOUNT_NUMBER": 123456,
+                "FUND_CURRENCY": "USD",
+                "VALUATION_DATE": "2017-02-17",
+                "VALUATION_FREQUENCY": "DY",
+                "CURRENT_LOCK_DATE": "2017-02-27",
+                "TOTAL_NET_ASSETS": 21212121212
+            },
+            {
+                "FUND_NAME": "Sample Fund Name 2",
+                "ACCOUNT_NUMBER": 12345886,
+                "FUND_CURRENCY": "USD",
+                "VALUATION_DATE": "2017-02-17",
+                "VALUATION_FREQUENCY": "DY",
+                "CURRENT_LOCK_DATE": "2017-07-28",
+                "TOTAL_NET_ASSETS": 21212121212
+            }
+        ],
+        "CREATED_DATE": "2017-07-28",
+        "HEDGE_TOLERANCE_CHECK": "5%",
+        "DIVEGERE_TOLERANCE_CHECK": "5%",
+        "EXCHANGE": [
+            {
+                "CURRENCY":"USD",
+                "FROM":0.89000,
+                "TO":0.86333,
+                "MOVEMENT":"-0.42%"
+            },
+            {
+                "CURRENCY":"gbp",
+                "FROM":0.7887283,
+                "TO":0.86333,
+                "MOVEMENT":"-0.42%"
+            },
+            {
+                "CURRENCY":"EUR",
+                "FROM":1.0000,
+                "TO":1.0000,
+                "MOVEMENT":"0.00%"
+            }
+        ],
+        "REQUIRED":[
+            {
+                "ACCOUNT_NUMBER":123456,
+                "SHARE_CLASS_NAME":"CLASS A USD UNHEDGED",
+                "IS_HEDGED":"UNHEDGED",
+                "SHARE_CLASS_NUMBER":1,
+                "CLASS_CURRENCY":"USD",
+                "NAV_CLASS_VALUE":1839919,
+                "NET_OPEN_FWDS":0.00,
+                "CLASS_CCY_EXPOSURE":1948993960,
+                "CLASS_CCY_EXPOSURE_PRESENT":"88.74%",
+                "VALUE_TO_BE_HEDGED":1632687
+            },
+            {
+                "ACCOUNT_NUMBER":123456,
+                "SHARE_CLASS_NAME":"CLASS B EUR UNHEDGED",
+                "IS_HEDGED":"UNHEDGED",
+                "SHARE_CLASS_NUMBER":1,
+                "CLASS_CURRENCY":"USD",
+                "NAV_CLASS_VALUE":1839919,
+                "NET_OPEN_FWDS":0.00,
+                "CLASS_CCY_EXPOSURE":1948993960,
+                "CLASS_CCY_EXPOSURE_PRESENT":"88.74%",
+                "VALUE_TO_BE_HEDGED":1632687
+            },
+            {
+                "ACCOUNT_NUMBER":123456,
+                "SHARE_CLASS_NAME":"CLASS C POUND UNHEDGED",
+                "IS_HEDGED":"UNHEDGED",
+                "SHARE_CLASS_NUMBER":1,
+                "CLASS_CURRENCY":"USD",
+                "NAV_CLASS_VALUE":1839919,
+                "NET_OPEN_FWDS":0.00,
+                "CLASS_CCY_EXPOSURE":1948993960,
+                "CLASS_CCY_EXPOSURE_PRESENT":"88.74%",
+                "VALUE_TO_BE_HEDGED":1632687
+            },
+            {
+                "ACCOUNT_NUMBER":123456,
+                "SHARE_CLASS_NAME":"CLASS D INR UNHEDGED",
+                "IS_HEDGED":"UNHEDGED",
+                "SHARE_CLASS_NUMBER":1,
+                "CLASS_CURRENCY":"USD",
+                "NAV_CLASS_VALUE":1839919,
+                "NET_OPEN_FWDS":0.00,
+                "CLASS_CCY_EXPOSURE":1948993960,
+                "CLASS_CCY_EXPOSURE_PRESENT":"88.74%",
+                "VALUE_TO_BE_HEDGED":1632687
+            }
+        ]
+    }
+}
